@@ -2,7 +2,17 @@
     box-sizing: border-box;
 }
 
+.header{
+    text-align: center;
+    background-color: #18185c;
+    padding: 35px;
+    color: #f5f6f7;
+    border-bottom: 7px solid #fdb347;
+}
 
+h1{
+    font-size: 40px;
+}
 
 body{
     margin: 0;
@@ -13,4 +23,12 @@ body{
     max-width: 350px;
     width: 100%;
     height: 100%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
